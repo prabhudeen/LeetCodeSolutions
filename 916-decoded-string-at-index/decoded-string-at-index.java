@@ -11,7 +11,6 @@ class Solution {
             }
         }
 
-    
         for(int i = s.length() - 1; i >=0; i--) {
             k = k % size;
             char ch = s.charAt(i);
